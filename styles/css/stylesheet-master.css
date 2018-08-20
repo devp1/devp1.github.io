@@ -176,6 +176,10 @@ section h2 {
   }
 }
 
+#about,#highlights,#experience,#projects {
+  min-height:100vh;
+}
+
 header.masthead {
   padding-top: calc(6rem + 72px);
   padding-bottom: 6rem;
@@ -185,8 +189,8 @@ header.masthead {
 }
 
 header.masthead h1 {
-  font-size: 3rem;
-  line-height: 3rem;
+  font-size: 3rem !important;
+  line-height: 3rem !important;
 }
 
 header.masthead h2 {
