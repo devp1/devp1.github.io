@@ -163,10 +163,21 @@ section h2 {
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-	background-color: #2C3E50 !important;
+	/*background-color: #2C3E50 !important;*/
+	background-color: #f8f9fa !important;
+	-webkit-box-shadow: 0 8px 6px -6px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 8px 6px -6px rgba(0,0,0,.2);
+    box-shadow: 0 8px 6px -6px rgba(0,0,0,.2);
+  }
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link {
+    color: #212529 !important;
+  }
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link.active {
+    color: #fff !important;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.5em;
+	color: #212529 !important;
   }
 }
 
@@ -189,12 +200,12 @@ header.masthead {
 }
 
 header.masthead h1 {
-  font-size: 3rem !important;
-  line-height: 3rem !important;
+  font-size: 1.3rem !important;
+  line-height: 1.3rem !important;
 }
 
 header.masthead h2 {
-  font-size: 1.3rem;
+  font-size: 2.3rem;
   font-family: 'Lato';
 }
 
