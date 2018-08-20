@@ -168,6 +168,12 @@ section h2 {
   }
 }
 
+@media (max-width: 991.98px) {
+  #mainNav {
+	background-color: #2C3E50;
+  }
+}
+
 header.masthead {
   padding-top: calc(6rem + 72px);
   padding-bottom: 6rem;
@@ -383,6 +389,10 @@ a:focus, a:hover, a:active {
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #1a252f;
   border-color: #1a252f;
+}
+
+a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-primary:hover {
+  background-color: rgba(33, 37, 41, 0.5) !important;
 }
 
 #particles-js canvas {
