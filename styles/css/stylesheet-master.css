@@ -56,7 +56,7 @@ hr.star-dark:after {
 
 section {
   padding: 6rem 0;
-  box-shadow: 0 40px 100px rgba(0,0,0,.2);
+  box-shadow: 0 40px 100px rgba(0,0,0,.6);
 }
 
 section h2 {
@@ -167,7 +167,7 @@ section h2 {
 	background-color: #f8f9fa !important;
 	-webkit-box-shadow: 0 8px 6px -6px rgba(0,0,0,.2);
     -moz-box-shadow: 0 8px 6px -6px rgba(0,0,0,.2);
-    box-shadow: 0 8px 6px -6px rgba(0,0,0,.2);
+    box-shadow: 0 8px 6px -6px rgba(0,0,0,.6);
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link {
     color: #212529 !important;
