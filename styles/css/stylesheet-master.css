@@ -54,6 +54,16 @@ hr.star-dark:after {
   background-color: #f8f9fa;
 }
 
+::-moz-selection {
+	color: #fff;
+    background: #6495ed;
+}
+
+::selection {
+	color: #fff;
+    background: #6495ed;
+}
+
 section {
   padding: 6rem 0;
   box-shadow: 0 40px 100px rgba(0,0,0,.6);
@@ -241,7 +251,7 @@ header.masthead h2 {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: rgba(24, 188, 156, 0.9);
+  background-color: rgba(100, 149, 237, 0.9);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -367,7 +377,7 @@ a {
 }
 
 a:focus, a:hover, a:active {
-  color: #128f76;
+  color: #8eb0f1;
 }
 
 .btn {
@@ -396,8 +406,8 @@ a:focus, a:hover, a:active {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #128f76;
-  border-color: #128f76;
+  background-color: #8eb0f1;
+  border-color: #8eb0f1;
 }
 
 .btn-secondary {
