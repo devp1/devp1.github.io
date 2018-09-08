@@ -80,5 +80,7 @@ $(document).ready(function() {
     setTimeout(function() {
         $('iframe#frame1').attr('src', 'https://www.theatlantic.com/technology/archive/2015/04/the-unbelievable-power-of-amazon-web-services/391281/');
         $('iframe#frame2').attr('src', 'https://www.cnbc.com/2018/07/26/aws-earnings-q2-2018.html');
-    }, 2000);
+		$('iframe#frame3').attr('src', 'https://www.cnbc.com/2018/08/27/aws-is-launching-on-premises-database-software-with-vmware.html');
+		$('iframe#frame4').attr('src', 'https://www.tahawultech.com/vendor/amazon-web-services-to-deliver-digital-transformation-for-fortune-1000-clients/');
+    }, 2500);
 });

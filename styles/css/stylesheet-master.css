@@ -83,6 +83,37 @@ section h2 {
   }
 }*/
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+  opacity: .6;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '\f0da';
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  font-size: 35px;
+  color: #6495ed;
+}
+
+.carousel-control-prev-icon:after {
+  content: '\f0d9';
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  font-size: 35px;
+  color: #6495ed;
+}
+
+iframe {
+  border:2px solid rgba(0,0,0,.6);
+}
+
 .btn-xl {
   padding: 1rem 1.75rem;
   font-size: 1.25rem;
