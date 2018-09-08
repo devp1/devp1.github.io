@@ -1,7 +1,7 @@
 (function($) {
   "use strict"; // Start of use strict
   $('[data-toggle="tooltip"]').tooltip();
-
+  
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -74,3 +74,11 @@
   });
 
 })(jQuery); // End of use strict
+
+
+$(document).ready(function() {
+    setTimeout(function() {
+        $('iframe#frame1').attr('src', 'https://www.theatlantic.com/technology/archive/2015/04/the-unbelievable-power-of-amazon-web-services/391281/');
+        $('iframe#frame2').attr('src', 'https://www.cnbc.com/2018/07/26/aws-earnings-q2-2018.html');
+    }, 2000);
+});
