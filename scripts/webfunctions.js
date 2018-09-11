@@ -75,12 +75,26 @@
 
 })(jQuery); // End of use strict
 
+var hasRun = 0;
+function isScrolledIntoView(elem)
+{
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
 
-$(document).ready(function() {
-    setTimeout(function() {
+    var elemTop = $(elem).offset().top;
+    var elemBottom = elemTop + $(elem).height();
+
+    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+}
+
+$(window).scroll(function() {
+    if(isScrolledIntoView("#carouselControls") && hasRun != 1)
+    {
+    	hasRun = 1;
         $('iframe#frame1').attr('src', 'https://www.theatlantic.com/technology/archive/2015/04/the-unbelievable-power-of-amazon-web-services/391281/');
         $('iframe#frame2').attr('src', 'https://www.cnbc.com/2018/07/26/aws-earnings-q2-2018.html');
-		$('iframe#frame3').attr('src', 'https://www.cnbc.com/2018/08/27/aws-is-launching-on-premises-database-software-with-vmware.html');
-		$('iframe#frame4').attr('src', 'https://www.tahawultech.com/vendor/amazon-web-services-to-deliver-digital-transformation-for-fortune-1000-clients/');
-    }, 2500);
+        $('iframe#frame3').attr('src', 'https://www.cnbc.com/2018/08/27/aws-is-launching-on-premises-database-software-with-vmware.html');
+        $('iframe#frame4').attr('src', 'https://www.tahawultech.com/vendor/amazon-web-services-to-deliver-digital-transformation-for-fortune-1000-clients/');
+		$('iframe#frame5').attr('src', 'https://www.computerworlduk.com/cloud-computing/how-netflix-moved-cloud-become-global-internet-tv-network-3683479/');
+    }
 });
