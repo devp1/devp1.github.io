@@ -55,6 +55,8 @@
     type: 'inline',
     preloader: false,
     focus: '#username',
+	removalDelay: 300,
+	mainClass: 'mfp-fade',
     modal: true
   });
   $(document).on('click', '.portfolio-modal-dismiss', function(e) {
