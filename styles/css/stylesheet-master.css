@@ -264,6 +264,18 @@ header.masthead h2 {
   }
 }
 
+.news-heading {
+    border-right: 4px solid #f0f0f0;
+    border-left: 4px solid #f0f0f0;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+    padding: 0px 22px 0px 32px;
+}
+
 .portfolio {
   margin-bottom: -15px;
 }
