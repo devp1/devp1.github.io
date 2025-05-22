@@ -1,0 +1,43 @@
+AWS Strategy and Business
+AI Platform vs. Speed: AWS deliberately took a long-term, platform-focused approach to generative AI rather than rushing out a simple chatbot . How do you balance the need for rapid AI innovation with building a secure, production-ready AI platform that enterprises can integrate deeply into their workflows?
+
+Multi-Model Strategy: AWS positions Bedrock as an open platform supporting many AI models that customers can chain together . With this model diversity, how do you help enterprises manage complexity and ensure they choose the right model or combination for their specific use cases?
+
+In-House vs. Partner Models: You’ve emphasized that AWS will continue to develop its own models (like Amazon’s Titan/Nova series) while also offering third-party models . In practice, how will AWS’s in-house AI models differentiate themselves (on metrics like latency, cost, or vertical specialization) to deliver unique value alongside partner models?
+
+Custom Chips and Partnerships: AWS is launching custom AI chips (Trainium 2/3) to give customers cost-effective alternatives, yet you also highlight NVIDIA as a key partner . How do you see AWS’s role as a chipmaker evolving, and will this approach maintain a cooperative stance with GPU partners even as your own silicon gains traction?
+
+Chip Adoption and Cost Savings: Trainium2 promises up to 30–40% better price-performance for AI training compared to current GPU instances . What strategies will AWS use to encourage customers (many already invested in NVIDIA GPUs) to shift workloads to Trainium-based instances, and how critical are partnerships (e.g. with Anthropic or Apple) in driving that adoption?
+
+UltraServers and Large Models: To handle very large AI models, AWS introduced EC2 UltraServers combining multiple Trainium2 chips in one node . Which emerging AI workloads or models do you expect to drive demand for such huge, single-node configurations, and how will this influence the architecture of large-scale AI training on AWS?
+
+AI Developer Tools (Q Services): The new AWS “Q” services (Q Developer and Q Business) aim to automate developer workflows and enterprise knowledge search . How do generative AI tools for developers fit into AWS’s long-term strategy for innovation, and could these assistants become as fundamental as services like Lambda or SageMaker?
+
+Open Source Engagement: You’ve stated that AWS “loves open source” and actively contributes back to the community . Given recent tensions when some projects change licensing, how do you see AWS maintaining trust with open-source developers while also protecting its own business interests?
+
+Core Infrastructure Innovation: Even amid the AI frenzy, you’ve highlighted continued innovation in core services (e.g. global databases, storage) . How do these foundational enhancements drive new use cases (including AI or analytics), and how does AWS balance investment in core infrastructure versus leading-edge features?
+
+Data Management Advances: AWS recently added capabilities like S3 Table Buckets and rich object metadata search . How do you envision customers leveraging these data-management features to improve governance, analytics, or machine learning workflows in the cloud?
+
+Security Leadership: AWS invests heavily in security – even tracking and mitigating threats proactively . What is AWS’s next frontier for cloud security, and how do you balance transparency (sharing best practices) against the risk of revealing too much about your defensive measures ?
+
+Sustainability and Growth: AWS is expanding capacity (new data centers, regions) while also committing to emissions targets . How is AWS addressing sustainability as it grows – for example, through renewable energy or efficiency gains – and how can cloud innovation itself help lower the overall environmental impact?
+
+Global Expansion Strategy: AWS has announced massive investments in new regions – e.g. a $5+ billion commitment in Mexico and a strategic AI partnership in Saudi Arabia . How does AWS determine where to build new infrastructure, and how do you balance global scale with customizing services and compliance for local markets?
+
+Industry-Specific Clouds: In addition to geographic growth, AWS has developed industry-specific cloud offerings (for finance, healthcare, government, telecom, etc.). How does AWS decide which vertical industries to target with specialized solutions, and how do you ensure these vertical clouds integrate smoothly with AWS’s broader platform strategy?
+
+Startup Ecosystem: You call startups “the enterprises of tomorrow” and have offered them significant support (such as $1B in cloud credits) . Looking ahead, how will AWS balance nurturing these young innovators as future customers with the possibility that some will become competitors in emerging AI and cloud sectors?
+
+
+
+Leadership and Culture
+Maintaining a “Day 1” Mindset: You emphasized that AWS must not “lose focus on startups and developers” even as it serves large enterprises and governments . How do you preserve that startup-driven, customer-obsessed culture within AWS now that it’s a massive, established organization of thousands of employees?
+
+Innovation and Excellence: You’ve said customers choose AWS because of “the best and broadest set of services” and unmatched security and performance . As CEO, how do you instill that ethos of continuous innovation and operational excellence across AWS’s global teams?
+
+Open-Source Culture: AWS prides itself on embracing open source, with you stating “we love open source” and contributing widely . What practical steps do you take as a leader to cultivate an open-source–friendly culture within AWS, and how do you coach teams to engage constructively with the broader developer community?
+
+Continuous Learning: Your fireside-chat summary highlighted the importance of upskilling AWS employees to leverage cloud and AI fully . What initiatives or programs have been most crucial to foster continuous learning and adaptability at AWS, ensuring that teams stay ahead of rapid technological change?
+
+Driving Internal Transformation: AWS used its own Q Developer internally to modernize 30,000 Java applications, saving ~$260M in costs . What leadership and cultural factors enabled such large-scale innovation and efficiency improvements, and what lessons would you share with other organizations aiming to replicate that agility and impact?
